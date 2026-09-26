@@ -40,6 +40,7 @@ project1-cyber-lab-infrastructure/
 │   ├── inputs.conf                      # Splunk UF log channels & event ID blacklists
 │   ├── lxc-wireguard-passthrough.conf   # Alpine LXC /dev/net/tun passthrough settings
 │   └── netplan-static-ip.yaml           # Netplan network configs for Linux hosts
+├── report/                              # Complete PDF case study report with screenshots and detailed logs
 ├── scripts/
 │   └── ad-management-launcher.bat       # Non-domain-joined AD admin launcher
 └── README.md                            # Comprehensive engineering writeup
