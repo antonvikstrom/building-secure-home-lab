@@ -23,7 +23,7 @@ A fully isolated, multi-tenant enterprise cyber lab built on Proxmox VE featurin
 | `jumpbox-01` | Windows 10 | `10.1.1.50` | Server Vault (LAN) | Hardened Management Workstation |
 | `vuln-web` | Ubuntu Server | `10.1.2.10` | DMZ (OPT1) | Dockerized Vulnerable Web Host (DVWA) |
 | `win10-client01` | Windows 10 | `10.1.3.100` | Target Zone (OPT2) | Domain-joined AD Endpoint |
-| `linux-client01` | Ubuntu Desktop | `10.1.3.150` | Target Zone (OPT2) | Linux Target Workstation |
+| `nixx-client01` | Ubuntu Desktop | `10.1.3.101` | Target Zone (OPT2) | Linux Target Workstation |
 | `kali-attack` | Kali Linux | `10.1.4.100` | Attack Zone (OPT3) | Primary Adversary Emulation Workstation |
 | `c2-server` | Ubuntu Server | `10.1.4.150` | Attack Zone (OPT3) | Command & Control (Sliver C2) |
 | `osint` | Trace Labs OSINT | `10.1.4.200` | Attack Zone (OPT3) | Target Profiling Workstation |
